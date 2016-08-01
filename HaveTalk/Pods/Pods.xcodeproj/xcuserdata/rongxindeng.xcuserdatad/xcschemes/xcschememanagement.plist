@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-HaveTalk.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,12 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>959BD63B46F88FC8F96873A1B39241B5</key>
+		<key>593458DD0E93AF9E719A01264D1DA3A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FB767CCB83D8381F227E575EE53FA51B</key>
+		<key>8660A1B06BD341B875ECE009C0A08428</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D058B89EB3B3DF45457A2DCD3971AFFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD9D1B7AE97DEB4C6266E5A1EB27347E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
