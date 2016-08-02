@@ -1,0 +1,18 @@
+//
+//  HTPrefixHeader.pch
+//  HaveTalk
+//
+//  Created by Raymonddeng on 16/8/2.
+//  Copyright © 2016年 tencent. All rights reserved.
+//
+
+#ifndef HTPrefixHeader_pch
+#define HTPrefixHeader_pch
+
+// 将需要全局引用的文件头放在这里
+
+#import "UIView+Frame.h"
+#import "HTBaseNavigationController.h"
+#import "HTBaseViewController.h"
+
+#endif /* HTPrefixHeader_pch */

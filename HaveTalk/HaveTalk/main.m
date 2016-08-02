@@ -2,7 +2,7 @@
 //  main.m
 //  HaveTalk
 //
-//  Created by Chair on 16/8/1.
+//  Created by Raymonddeng on 16/8/1.
 //  Copyright © 2016年 tencent. All rights reserved.
 //
 

@@ -2,14 +2,18 @@
 //  AppDelegate.m
 //  HaveTalk
 //
-//  Created by Chair on 16/8/1.
+//  Created by Raymonddeng on 16/8/1.
 //  Copyright © 2016年 tencent. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "HTLoginViewController.h"
+
 
 @interface AppDelegate ()
 
+@property (nonatomic, assign) BOOL isLogin;
+@property (nonatomic, strong) HTLoginViewController *loginController;
 @end
 
 @implementation AppDelegate
@@ -17,7 +21,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self checkIfLogin];
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+- (void)checkIfLogin
+{
+    if (!self.isLogin) {
+        self.loginController = [[HTLoginViewController alloc] init];
+        self.window.rootViewController = [[HTBaseNavigationController alloc] initWithRootViewController:self.loginController];
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
